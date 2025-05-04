@@ -1,10 +1,10 @@
 data "aws_ami" "example" {
-  most_recent      = true
-  owners           = ["self"]
+  most_recent = true
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
-    values = ["myami-*"]
+    values = ["ami-0e35ddab05955cf57"]
   }
 
   filter {
